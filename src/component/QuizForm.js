@@ -58,25 +58,6 @@ const QuizForm = () => {
     });
   };
 
-// const handleAddQuiz = () => {
-//     const existingQuizIndex = quizzes.findIndex((quiz) => quiz.id === currentQuiz.id);
-//     if (existingQuizIndex !== -1) {
-//       const updatedQuizzes = [...quizzes];
-//       updatedQuizzes[existingQuizIndex] = currentQuiz;
-//       setQuizzes(updatedQuizzes);
-//     } else {
-//       setQuizzes([...quizzes, currentQuiz]);
-//     }
-//     setCurrentQuiz({
-//       id: null,
-//       title: '',
-//       description: '',
-//       score: null,
-//       url: '',
-//       questions_answers: [],
-//     });
-//   };
-
   const handleEditQuiz = (quiz) => {
     setCurrentQuiz(quiz);
   };
